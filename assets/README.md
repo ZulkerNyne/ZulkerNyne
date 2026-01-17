@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="assets/banner.png" alt="ZulkerNyne banner" />
+  <img src="https://raw.githubusercontent.com/ZulkerNyne/ZulkerNyne/main/assets/banner.png" alt="ZulkerNyne banner" width="100%" />
 </p>
+
 
 
 <h1 align="center">ZulkerNyne</h1>
