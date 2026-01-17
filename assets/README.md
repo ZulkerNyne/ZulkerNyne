@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="ZulkerNyne banner" />
+  <img src="assets/assets/banner.png" alt="ZulkerNyne banner" />
 </p>
 
 
