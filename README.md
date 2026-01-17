@@ -1,43 +1,25 @@
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ZulkerNyne/ZulkerNyne/main/assets/banner.png" alt="ZulkerNyne banner" width="100%" />
+  <img src="assets/banner.png" alt="ZulkerNyne" width="100%" />
 </p>
-
-
 
 <h1 align="center">ZulkerNyne</h1>
 
-<p align="center">
-Backend-focused builder working on privacy-first products and real-world systems.
-</p>
+<p align="center"><em>Backend • Security • Systems</em></p>
 
 <p align="center">
   <a href="mailto:mdzulkernyne@gmail.com">mdzulkernyne@gmail.com</a>
-  
 </p>
 
 ---
 
-## Active projects
-**NikahNet (private)** — Halal marriage platform  
-- Secure onboarding & profile creation  
-- AuthN/AuthZ  
-- Messaging architecture (secure + abuse-resistant)  
-- Matchmaking logic (iterative, measurable)
+### Selected work
+**NikahNet** — Private product in active development. Privacy-first architecture, secure identity & access, messaging design, and matching logic.
 
-**AUV UCalgary (Software Lead)** — Autonomous Underwater Vehicle Club  
-- Leading software delivery with a focus on reliability, integration, and field-ready deployment
+**Cycle Breaker** — Private platform in active development. Content delivery, progress tracking, and account systems built with safety and data integrity in mind.
 
-**Cycle Breaker (private)** — Recovery & learning platform  
-- Articles & lesson delivery, progress tracking, quizzes/video lessons  
-- Backend systems designed for data integrity and safe user flows
+**AUV UCalgary** — Software Lead. Field-ready systems, reliability, and integration for an autonomous underwater vehicle team.
 
 ---
 
-## Engineering focus
-Backend engineering • system design • security • scalability
-
----
-
-## Public work
-Most production work is private due to confidentiality. Public repos focus on reusable modules and engineering notes.
+### Principles
+Security-first • Clear APIs • Measurable iteration • Maintainable systems
