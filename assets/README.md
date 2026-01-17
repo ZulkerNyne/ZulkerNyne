@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="assets/banner.png" alt="ZulkerNyne banner" />
+</p>
+
+
 <h1 align="center">ZulkerNyne</h1>
 
 <p align="center">
