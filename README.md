@@ -1,23 +1,9 @@
 <!-- ===================== -->
 <!-- TOP BANNER -->
 <!-- ===================== -->
-<!-- ===================== -->
-<!-- TOP BANNER -->
-<!-- ===================== -->
-<div style="background-color:black; color:white; padding:50px; text-align:center; font-family:sans-serif;">
-  <!-- Main Title -->
-  <h1 style="margin:0; font-size:48px;">Backend Developer | System Thinker</h1>
-  
-  <!-- Subtitle -->
-  <p style="margin:10px 0 0 0; font-size:20px; color:#cccccc;">
-    Backend-Focused Software Developer | Problem Solver | System-Oriented Thinker
-  </p>
-  
-  <!-- Simulated signature in bottom-right -->
-  <p style="margin-top:30px; text-align:right; font-family:cursive; font-size:24px; color:rgba(255,255,255,0.5);">
-    ZulkerNyne
-  </p>
-</div>
+<p align="center">
+  <img src="https://placehold.co/1200x350?text=Backend+Developer+%7C+System+Thinker" />
+</p>
 
 
 <h2 align="center">Hi there, I'm Zulker Nyne 👋</h2>
