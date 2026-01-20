@@ -11,10 +11,6 @@
   Backend-Focused Software Developer | Problem Solver | System-Oriented Thinker
 </p>
 
-<p align="right">
-  <img width="260" src="https://placehold.co/400x400?text=Profile+Image" />
-</p>
-
 <p>
 I’m a backend-focused software developer who enjoys building meaningful systems from the ground up.
 I care deeply about APIs, databases, performance, security, and system design.
@@ -48,11 +44,10 @@ Currently balancing university, leadership responsibilities, and building real-w
 
 ### Databases
 <p>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40"/>
-  <img src="https://placehold.co/120x40?text=Redis" />
-  <img src="https://placehold.co/120x40?text=Firebase" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase&logoColor=white" />
 </p>
 
 ### Frontend / UI
@@ -69,19 +64,18 @@ Currently balancing university, leadership responsibilities, and building real-w
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40"/>
-  <img src="https://placehold.co/120x40?text=CI/CD" />
+  <img src="https://img.shields.io/badge/CI%2FCD-000000?style=for-the-badge&logo=gitlab&logoColor=white" />
 </p>
 
 ### Security & Auth
 <p>
-  <img src="https://placehold.co/120x40?text=JWT" />
-  <img src="https://placehold.co/120x40?text=OAuth" />
-  <img src="https://placehold.co/120x40?text=Argon2" />
-  <img src="https://placehold.co/120x40?text=Bcrypt" />
-  <img src="https://placehold.co/120x40?text=Encryption" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jwt&logoColor=#F7DF1E" />
+  <img src="https://img.shields.io/badge/OAuth-4285F4?style=for-the-badge&logo=oauth&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bcrypt-9F3C97?style=for-the-badge&logo=bcrypt&logoColor=white" />
+  <img src="https://img.shields.io/badge/Argon2-663399?style=for-the-badge&logo=argon2&logoColor=white" />
+  <img src="https://img.shields.io/badge/Encryption-009688?style=for-the-badge&logo=openssl&logoColor=white" />
 </p>
 
----
 
 ## 🧠 Featured Projects
 
