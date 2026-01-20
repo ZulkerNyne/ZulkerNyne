@@ -84,9 +84,9 @@ Currently balancing university, leadership responsibilities, and building real-w
 **Status:** 🟡 In Progress  
 **Tech:** Node.js, Express, MongoDB  
 
-<p align="center">
+<!--<p align="center">
   <img src="https://placehold.co/900x400?text=NikahNet+Backend+Preview" />
-</p>
+</p>-->
 
 #### ✅ Completed
 - Backend architecture & API structure
@@ -111,9 +111,9 @@ Currently balancing university, leadership responsibilities, and building real-w
 **Status:** 🟡 In Progress  
 **Tech:** Node.js, Express, MongoDB  
 
-<p align="center">
+<!--<p align="center">
   <img src="https://placehold.co/900x400?text=Cycle+Breaker+Backend+Preview" />
-</p>
+</p>-->
 
 #### ✅ Completed
 - Secure backend structure
@@ -136,9 +136,9 @@ Currently balancing university, leadership responsibilities, and building real-w
 
 ### 🚤 Software Lead — AUV Calgary
 
-<p align="center">
+<!--<p align="center">
   <img src="https://placehold.co/900x350?text=AUV+Calgary+Software+Team" />
-</p>
+</p>-->
 
 - Leading backend & system design decisions
 - Mentoring team members
