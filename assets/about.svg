@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620">
+  <defs>
+    <filter id="rough"><feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="pencil"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="shadow"><feDropShadow dx="1" dy="1" stdDeviation="1" flood-color="#00000018"/></filter>
+    <pattern id="lines" patternUnits="userSpaceOnUse" width="900" height="32"><line x1="0" y1="31" x2="900" y2="31" stroke="#c8daf0" stroke-width="1" opacity="0.4"/></pattern>
+  </defs>
+  <rect width="900" height="620" fill="#FFF9E8"/>
+  <rect width="900" height="620" fill="url(#lines)"/>
+  <line x1="80" y1="0" x2="80" y2="620" stroke="#f4a0a0" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="40" cy="40" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="120" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="200" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="280" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="360" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="440" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="520" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+  <circle cx="40" cy="600" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
+
+  <!-- Header -->
+  <text x="100" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#222" font-weight="bold" filter="url(#rough)">About Me 👋</text>
+  <text x="310" y="38" font-family="Georgia, serif" font-size="13" fill="#aaa" font-style="italic">who's this guy →</text>
+  <path d="M100,48 Q300,52 500,47 Q700,52 860,48" fill="none" stroke="#FFE0B2" stroke-width="3" opacity="0.5" stroke-linecap="round" filter="url(#pencil)"/>
+
+  <!-- Subtitle -->
+  <text x="100" y="75" font-family="Georgia, serif" font-size="16" fill="#333" font-weight="bold">Backend systems. Security by default. Math brain.</text>
+
+  <!-- Bio paragraph -->
+  <text x="100" y="102" font-family="Georgia, serif" font-size="13" fill="#444">I'm a Math student at the University of Calgary who builds backend systems and SaaS</text>
+  <text x="100" y="119" font-family="Georgia, serif" font-size="13" fill="#444">products that ship to real users. I care about the engineering underneath — not just</text>
+  <text x="100" y="136" font-family="Georgia, serif" font-size="13" fill="#444">whether it runs, but whether it's <tspan font-weight="bold">correct, maintainable, and ready to scale.</tspan></text>
+
+  <text x="100" y="163" font-family="Georgia, serif" font-size="12.5" fill="#888" font-style="italic">all 5 products are live in production — not localhost demos, not course assignments.</text>
+
+  <text x="100" y="190" font-family="Georgia, serif" font-size="13" fill="#444">Coming from pure mathematics, I think in systems and invariants. I ask why before I ask</text>
+  <text x="100" y="207" font-family="Georgia, serif" font-size="13" fill="#444">how. I've migrated a live production database without losing a single row, designed a</text>
+  <text x="100" y="224" font-family="Georgia, serif" font-size="13" fill="#444">64-slot elastic data model for a SaaS sermon planner, built an atomic credit ledger and</text>
+  <text x="100" y="241" font-family="Georgia, serif" font-size="13" fill="#444">waitlist chain for a client gym booking system, and led a 5-person software team building</text>
+  <text x="100" y="258" font-family="Georgia, serif" font-size="13" fill="#444">ROS2 architecture from scratch — all as a student, all shipped, all live.</text>
+
+  <text x="100" y="285" font-family="Georgia, serif" font-size="14" fill="#333" font-weight="bold" font-style="italic">proof-first. then code. always.</text>
+
+  <!-- Info table as sticky notes -->
+  <g transform="translate(100, 305)" filter="url(#shadow)">
+    <rect width="350" height="32" rx="3" fill="#FFEB3B" opacity="0.5"/>
+    <text x="10" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" font-weight="bold">currently</text>
+    <text x="105" y="21" font-family="Georgia, serif" font-size="12" fill="#333">Software Lead · AUV Calgary · UCalgary</text>
+  </g>
+  <g transform="translate(100, 343)" filter="url(#shadow)">
+    <rect width="350" height="32" rx="3" fill="#B3E5FC" opacity="0.5"/>
+    <text x="10" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" font-weight="bold">studying</text>
+    <text x="105" y="21" font-family="Georgia, serif" font-size="12" fill="#333">Mathematics · University of Calgary</text>
+  </g>
+  <g transform="translate(100, 381)" filter="url(#shadow)">
+    <rect width="680" height="32" rx="3" fill="#C8E6C9" opacity="0.5"/>
+    <text x="10" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" font-weight="bold">shipped</text>
+    <text x="105" y="21" font-family="Georgia, serif" font-size="12" fill="#333">5 products live — nikahnet.net · khutba.net · fitragym.ca · cyclebreaker.net · auvucalgary.ca</text>
+  </g>
+  <g transform="translate(100, 419)" filter="url(#shadow)">
+    <rect width="520" height="32" rx="3" fill="#FFE0B2" opacity="0.5"/>
+    <text x="10" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" font-weight="bold">stack</text>
+    <text x="105" y="21" font-family="Georgia, serif" font-size="12" fill="#333">Express · Prisma · PG · JWT · Stripe · Redis · Socket.IO · ROS2</text>
+  </g>
+  <g transform="translate(100, 457)" filter="url(#shadow)">
+    <rect width="460" height="32" rx="3" fill="#E1BEE7" opacity="0.4"/>
+    <text x="10" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" font-weight="bold">team led</text>
+    <text x="105" y="21" font-family="Georgia, serif" font-size="12" fill="#333">5 engineers — ROS2, Gazebo sim, perception &amp; control</text>
+  </g>
+  <g transform="translate(100, 495)" filter="url(#shadow)">
+    <rect width="300" height="32" rx="3" fill="#FFEB3B" opacity="0.5"/>
+    <text x="10" y="21" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#666" font-weight="bold">based in</text>
+    <text x="105" y="21" font-family="Georgia, serif" font-size="12" fill="#333">Calgary 🇨🇦 · open to remote</text>
+  </g>
+
+  <!-- Philosophy quotes -->
+  <line x1="100" y1="545" x2="106" y2="545" stroke="#4FC3F7" stroke-width="3"/>
+  <text x="115" y="549" font-family="Georgia, serif" font-size="11.5" fill="#666" font-style="italic">Security isn't a feature — I read the RFC before I write the implementation.</text>
+  <text x="115" y="564" font-family="Georgia, serif" font-size="11" fill="#888" font-weight="bold">no Auth0. no shortcuts. just understanding.</text>
+
+  <line x1="100" y1="582" x2="106" y2="582" stroke="#C8E6C9" stroke-width="3"/>
+  <text x="115" y="586" font-family="Georgia, serif" font-size="11.5" fill="#666" font-style="italic">Systems before syntax — I architect for correctness first.</text>
+  <text x="115" y="601" font-family="Georgia, serif" font-size="11" fill="#888" font-weight="bold">invariants first. implementation second.</text>
+</svg>

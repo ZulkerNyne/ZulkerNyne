@@ -1,13 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 55" width="900" height="55">
   <defs>
-    <filter id="rough">
-      <feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="4" result="noise"/>
-      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" xChannelSelector="R" yChannelSelector="G"/>
-    </filter>
+    <filter id="rough"><feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="4" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="1.5" xChannelSelector="R" yChannelSelector="G"/></filter>
+    <filter id="pencil"><feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="n"/><feDisplacementMap in="SourceGraphic" in2="n" scale="2" xChannelSelector="R" yChannelSelector="G"/></filter>
   </defs>
-  <rect width="900" height="60" fill="#FFF9E8" rx="4"/>
-  <line x1="0" y1="55" x2="900" y2="55" stroke="#e0d5b8" stroke-width="1"/>
-  <text x="20" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#222" font-weight="bold" filter="url(#rough)">Experience</text>
-  <text x="260" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#999" font-style="italic">work &amp; leadership</text>
-  <path d="M20,50 Q200,52 400,48 Q600,52 880,48" fill="none" stroke="#4FC3F7" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+  <rect width="900" height="55" fill="#FFF9E8"/>
+  <text x="100" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="30" fill="#222" font-weight="bold" filter="url(#rough)">Experience</text>
+  <text x="310" y="38" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#aaa" font-style="italic">work &amp; leadership →</text>
+  <path d="M100,48 Q300,52 500,47 Q700,52 860,48" fill="none" stroke="#4FC3F7" stroke-width="3" opacity="0.3" stroke-linecap="round" filter="url(#pencil)"/>
 </svg>
