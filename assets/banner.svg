@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 400" width="900" height="400">
+  <defs>
+    <filter id="rough" x="-2%" y="-2%" width="104%" height="104%">
+      <feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="pencil" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="2" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="2" flood-color="#00000022"/>
+    </filter>
+    <pattern id="lines" patternUnits="userSpaceOnUse" width="900" height="32">
+      <line x1="0" y1="31" x2="900" y2="31" stroke="#c8daf0" stroke-width="1" opacity="0.5"/>
+    </pattern>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="20" height="20">
+      <circle cx="10" cy="10" r="0.5" fill="#ccc" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <!-- Paper background -->
+  <rect width="900" height="400" rx="8" fill="#FFF9E8"/>
+  <rect width="900" height="400" rx="8" fill="url(#lines)"/>
+  <rect width="900" height="400" rx="8" fill="url(#dots)"/>
+
+  <!-- Red margin line -->
+  <line x1="80" y1="0" x2="80" y2="400" stroke="#f4a0a0" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Top torn edge effect -->
+  <path d="M0,5 Q10,2 20,6 Q35,0 50,5 Q65,2 80,7 Q100,1 120,5 Q140,3 160,6 Q180,1 200,5 Q220,3 240,7 Q260,1 280,5 Q300,3 320,6 Q340,2 360,5 Q380,1 400,6 Q420,3 440,5 Q460,2 480,7 Q500,1 520,5 Q540,3 560,6 Q580,1 600,5 Q620,3 640,7 Q660,1 680,5 Q700,2 720,6 Q740,1 760,5 Q780,3 800,6 Q820,1 840,5 Q860,3 880,7 Q895,2 900,5 L900,0 L0,0 Z" fill="#FFF9E8"/>
+
+  <!-- Spiral binding holes -->
+  <circle cx="40" cy="60" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
+  <circle cx="40" cy="120" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
+  <circle cx="40" cy="180" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
+  <circle cx="40" cy="240" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
+  <circle cx="40" cy="300" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
+  <circle cx="40" cy="360" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
+
+  <!-- Pencil scribble decoration top right -->
+  <path d="M750,30 Q770,25 790,32 Q810,22 830,30" fill="none" stroke="#bbb" stroke-width="1" opacity="0.4" filter="url(#pencil)"/>
+
+  <!-- math × code × vision label -->
+  <text x="450" y="55" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#888" text-anchor="middle" font-style="italic" filter="url(#rough)">✏ math × code × vision</text>
+
+  <!-- Main heading with underline effect -->
+  <text x="450" y="130" font-family="Georgia, 'Times New Roman', serif" font-size="52" fill="#222" text-anchor="middle" font-weight="bold" filter="url(#rough)">Hey, I'm ZulkerNyne!</text>
+
+  <!-- Hand-drawn underline -->
+  <path d="M200,140 Q320,148 450,142 Q580,136 700,145" fill="none" stroke="#4FC3F7" stroke-width="8" opacity="0.35" stroke-linecap="round" filter="url(#pencil)"/>
+  <path d="M220,145 Q350,152 450,146 Q570,140 680,150" fill="none" stroke="#4FC3F7" stroke-width="5" opacity="0.25" stroke-linecap="round" filter="url(#pencil)"/>
+
+  <!-- Bio text -->
+  <text x="450" y="185" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#444" text-anchor="middle">
+    Math student at UCalgary building backend systems, SaaS products,
+  </text>
+  <text x="450" y="205" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#444" text-anchor="middle">
+    and full-stack apps that ship to real users.
+  </text>
+
+  <!-- Sticky note badges -->
+  <!-- Software Lead -->
+  <g transform="translate(115, 240)" filter="url(#shadow)">
+    <rect width="155" height="42" rx="3" fill="#FFEB3B" transform="rotate(-1)"/>
+    <text x="78" y="18" font-family="'Segoe UI', sans-serif" font-size="10" fill="#666" text-anchor="middle">Software Lead</text>
+    <text x="78" y="33" font-family="'Segoe UI', sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">AUV Calgary</text>
+  </g>
+
+  <!-- Backend · Full-Stack -->
+  <g transform="translate(290, 238)" filter="url(#shadow)">
+    <rect width="155" height="42" rx="3" fill="#B3E5FC" transform="rotate(0.5)"/>
+    <text x="78" y="18" font-family="'Segoe UI', sans-serif" font-size="10" fill="#666" text-anchor="middle">Backend · Full-Stack</text>
+    <text x="78" y="33" font-family="'Segoe UI', sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">Developer</text>
+  </g>
+
+  <!-- Production Apps -->
+  <g transform="translate(465, 240)" filter="url(#shadow)">
+    <rect width="155" height="42" rx="3" fill="#C8E6C9" transform="rotate(-0.5)"/>
+    <text x="78" y="18" font-family="'Segoe UI', sans-serif" font-size="10" fill="#666" text-anchor="middle">5 Live Products</text>
+    <text x="78" y="33" font-family="'Segoe UI', sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">In Production</text>
+  </g>
+
+  <!-- Math Student -->
+  <g transform="translate(640, 238)" filter="url(#shadow)">
+    <rect width="155" height="42" rx="3" fill="#FFE0B2" transform="rotate(0.8)"/>
+    <text x="78" y="18" font-family="'Segoe UI', sans-serif" font-size="10" fill="#666" text-anchor="middle">Math Student</text>
+    <text x="78" y="33" font-family="'Segoe UI', sans-serif" font-size="11" fill="#333" text-anchor="middle" font-weight="bold">UCalgary</text>
+  </g>
+
+  <!-- Stats row -->
+  <g transform="translate(130, 310)">
+    <rect width="130" height="55" rx="4" fill="#FFEB3B" opacity="0.7" filter="url(#shadow)"/>
+    <text x="65" y="22" font-family="Georgia, serif" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+    <text x="65" y="42" font-family="'Segoe UI', sans-serif" font-size="10" fill="#555" text-anchor="middle">LIVE IN PRODUCTION</text>
+  </g>
+  <g transform="translate(290, 310)">
+    <rect width="130" height="55" rx="4" fill="#FFEB3B" opacity="0.7" filter="url(#shadow)"/>
+    <text x="65" y="22" font-family="Georgia, serif" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+    <text x="65" y="42" font-family="'Segoe UI', sans-serif" font-size="10" fill="#555" text-anchor="middle">LIVE WEBSITES</text>
+  </g>
+  <g transform="translate(450, 310)">
+    <rect width="130" height="55" rx="4" fill="#FFEB3B" opacity="0.7" filter="url(#shadow)"/>
+    <text x="65" y="22" font-family="Georgia, serif" font-size="22" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+    <text x="65" y="42" font-family="'Segoe UI', sans-serif" font-size="10" fill="#555" text-anchor="middle">ENGINEERS LED</text>
+  </g>
+  <g transform="translate(610, 310)">
+    <rect width="160" height="55" rx="4" fill="#FF7043" opacity="0.85" filter="url(#shadow)"/>
+    <text x="80" y="22" font-family="Georgia, serif" font-size="16" fill="#fff" text-anchor="middle" font-weight="bold">SWE</text>
+    <text x="80" y="42" font-family="'Segoe UI', sans-serif" font-size="10" fill="#fff" text-anchor="middle">TARGET ROLE</text>
+  </g>
+
+  <!-- Corner doodle -->
+  <path d="M855,375 Q860,365 870,370 Q878,360 885,368" fill="none" stroke="#ccc" stroke-width="1" opacity="0.5"/>
+</svg>

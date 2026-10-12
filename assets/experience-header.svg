@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="900" height="60">
+  <defs>
+    <filter id="rough">
+      <feTurbulence type="turbulence" baseFrequency="0.03" numOctaves="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+  </defs>
+  <rect width="900" height="60" fill="#FFF9E8" rx="4"/>
+  <line x1="0" y1="55" x2="900" y2="55" stroke="#e0d5b8" stroke-width="1"/>
+  <text x="20" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="32" fill="#222" font-weight="bold" filter="url(#rough)">Experience</text>
+  <text x="260" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="14" fill="#999" font-style="italic">work &amp; leadership</text>
+  <path d="M20,50 Q200,52 400,48 Q600,52 880,48" fill="none" stroke="#4FC3F7" stroke-width="3" opacity="0.3" stroke-linecap="round"/>
+</svg>
