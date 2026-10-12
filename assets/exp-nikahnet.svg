@@ -13,48 +13,48 @@
   <circle cx="40" cy="290" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
   <circle cx="40" cy="365" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
 
-  <text x="100" y="35" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#222" font-weight="bold" filter="url(#rough)">Full-Stack Developer</text>
-  <text x="365" y="35" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#888">· NikahNet</text>
-  <text x="100" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#888">2025 → Present · nikahnet.net · In Production</text>
+  <text x="100" y="35" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="22" fill="#222" font-weight="bold" filter="url(#rough)">Full-Stack Developer</text>
+  <text x="365" y="35" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="22" fill="#888">· NikahNet</text>
+  <text x="100" y="55" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="12" fill="#888">2025 → Present · nikahnet.net · In Production</text>
 
-  <text x="100" y="82" font-family="Georgia, serif" font-size="13" fill="#444">A Muslim community matrimonial platform <tspan font-weight="bold">serving real users in production</tspan>.</text>
-  <text x="100" y="99" font-family="Georgia, serif" font-size="13" fill="#444">React + Vite frontend on Vercel, Express 5 + Prisma + PostgreSQL on Railway, Redis</text>
-  <text x="100" y="116" font-family="Georgia, serif" font-size="13" fill="#444">for rate limiting, Cloudflare R2 for photo storage, and Socket.IO for real-time</text>
-  <text x="100" y="133" font-family="Georgia, serif" font-size="13" fill="#444">messaging. <tspan font-weight="bold">JWT auth built from the RFC — no Auth0, no shortcuts.</tspan></text>
+  <text x="100" y="82" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444">A Muslim community matrimonial platform <tspan font-weight="bold">serving real users in production</tspan>.</text>
+  <text x="100" y="99" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444">React + Vite frontend on Vercel, Express 5 + Prisma + PostgreSQL on Railway, Redis</text>
+  <text x="100" y="116" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444">for rate limiting, Cloudflare R2 for photo storage, and Socket.IO for real-time</text>
+  <text x="100" y="133" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444">messaging. <tspan font-weight="bold">JWT auth built from the RFC — no Auth0, no shortcuts.</tspan></text>
 
-  <text x="110" y="162" font-family="Georgia, serif" font-size="12.5" fill="#555">— Migrated live database from SQLite to PostgreSQL — <tspan font-weight="bold" fill="#333">zero data loss, zero downtime</tspan></text>
+  <text x="110" y="162" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— Migrated live database from SQLite to PostgreSQL — <tspan font-weight="bold" fill="#333">zero data loss, zero downtime</tspan></text>
 
-  <text x="110" y="184" font-family="Georgia, serif" font-size="12.5" fill="#555">— CSRF protection, request IDs, graceful shutdown, Redis-backed rate limiting</text>
+  <text x="110" y="184" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— CSRF protection, request IDs, graceful shutdown, Redis-backed rate limiting</text>
 
-  <text x="110" y="206" font-family="Georgia, serif" font-size="12.5" fill="#555">— Multi-photo profiles (4/user via R2), compatibility scoring, admin verification flow</text>
+  <text x="110" y="206" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— Multi-photo profiles (4/user via R2), compatibility scoring, admin verification flow</text>
 
-  <text x="110" y="228" font-family="Georgia, serif" font-size="12.5" fill="#555">— Real-time messaging with Socket.IO + Redis adapter, anti-spam enforcement</text>
+  <text x="110" y="228" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— Real-time messaging with Socket.IO + Redis adapter, anti-spam enforcement</text>
 
-  <text x="110" y="255" font-family="Georgia, serif" font-size="12.5" fill="#888" font-style="italic">★ solo-shipped the entire stack — frontend, backend, DB, deploy</text>
+  <text x="110" y="255" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#888" font-style="italic">★ solo-shipped the entire stack — frontend, backend, DB, deploy</text>
 
   <g transform="translate(100, 275)" filter="url(#shadow)">
-    <rect width="56" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="28" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">React</text>
+    <rect width="56" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="28" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">React</text>
   </g>
   <g transform="translate(166, 275)" filter="url(#shadow)">
-    <rect width="46" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="23" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Vite</text>
+    <rect width="46" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="23" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Vite</text>
   </g>
   <g transform="translate(222, 275)" filter="url(#shadow)">
-    <rect width="78" height="22" rx="3" fill="#C8E6C9" opacity="0.8"/><text x="39" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Express 5</text>
+    <rect width="78" height="22" rx="3" fill="#C8E6C9" opacity="0.8"/><text x="39" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Express 5</text>
   </g>
   <g transform="translate(310, 275)" filter="url(#shadow)">
-    <rect width="58" height="22" rx="3" fill="#C8E6C9" opacity="0.8"/><text x="29" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Prisma</text>
+    <rect width="58" height="22" rx="3" fill="#C8E6C9" opacity="0.8"/><text x="29" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Prisma</text>
   </g>
   <g transform="translate(378, 275)" filter="url(#shadow)">
-    <rect width="86" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="43" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">PostgreSQL</text>
+    <rect width="86" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="43" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">PostgreSQL</text>
   </g>
   <g transform="translate(474, 275)" filter="url(#shadow)">
-    <rect width="52" height="22" rx="3" fill="#FFCDD2" opacity="0.8"/><text x="26" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Redis</text>
+    <rect width="52" height="22" rx="3" fill="#FFCDD2" opacity="0.8"/><text x="26" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Redis</text>
   </g>
   <g transform="translate(536, 275)" filter="url(#shadow)">
-    <rect width="76" height="22" rx="3" fill="#FFE0B2" opacity="0.8"/><text x="38" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Socket.IO</text>
+    <rect width="76" height="22" rx="3" fill="#FFE0B2" opacity="0.8"/><text x="38" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Socket.IO</text>
   </g>
   <g transform="translate(100, 305)" filter="url(#shadow)">
-    <rect width="106" height="22" rx="3" fill="#FFEB3B" opacity="0.8"/><text x="53" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Cloudflare R2</text>
+    <rect width="106" height="22" rx="3" fill="#FFEB3B" opacity="0.8"/><text x="53" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Cloudflare R2</text>
   </g>
 
   <path d="M100,352 Q300,357 500,350 Q700,357 860,352" fill="none" stroke="#e0d5b8" stroke-width="1.5" stroke-linecap="round"/>

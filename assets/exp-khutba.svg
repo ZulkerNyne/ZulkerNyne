@@ -13,44 +13,44 @@
   <circle cx="40" cy="290" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
   <circle cx="40" cy="365" r="7" fill="none" stroke="#999" stroke-width="1.3"/>
 
-  <text x="100" y="35" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#222" font-weight="bold" filter="url(#rough)">Software Developer</text>
-  <text x="350" y="35" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#888">· Khutba</text>
-  <text x="100" y="55" font-family="'Segoe UI', Arial, sans-serif" font-size="12" fill="#888">May 2026 → Sep 2026 · khutba.net · SaaS Product</text>
+  <text x="100" y="35" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="22" fill="#222" font-weight="bold" filter="url(#rough)">Software Developer</text>
+  <text x="350" y="35" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="22" fill="#888">· Khutba</text>
+  <text x="100" y="55" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="12" fill="#888">May 2026 → Sep 2026 · khutba.net · SaaS Product</text>
 
-  <text x="100" y="82" font-family="Georgia, serif" font-size="13" fill="#444">Built a <tspan font-weight="bold">SaaS sermon planning platform</tspan> for mosque imams. Next.js + Prisma +</text>
-  <text x="100" y="99" font-family="Georgia, serif" font-size="13" fill="#444">PostgreSQL with session-based auth, role-based access, mosque invitations, and</text>
-  <text x="100" y="116" font-family="Georgia, serif" font-size="13" fill="#444"><tspan font-weight="bold">18 API route groups</tspan> covering sermons, themes, org management, admin, billing, and export.</text>
+  <text x="100" y="82" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444">Built a <tspan font-weight="bold">SaaS sermon planning platform</tspan> for mosque imams. Next.js + Prisma +</text>
+  <text x="100" y="99" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444">PostgreSQL with session-based auth, role-based access, mosque invitations, and</text>
+  <text x="100" y="116" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="13" fill="#444"><tspan font-weight="bold">18 API route groups</tspan> covering sermons, themes, org management, admin, billing, and export.</text>
 
-  <text x="110" y="145" font-family="Georgia, serif" font-size="12.5" fill="#555">— Designed the <tspan font-weight="bold" fill="#333">4-season × 16-slot annual plan model</tspan> with elastic sub-bouquets —</text>
-  <text x="122" y="161" font-family="Georgia, serif" font-size="12.5" fill="#555">structurally coherent yet flexible per imam's needs</text>
+  <text x="110" y="145" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— Designed the <tspan font-weight="bold" fill="#333">4-season × 16-slot annual plan model</tspan> with elastic sub-bouquets —</text>
+  <text x="122" y="161" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">structurally coherent yet flexible per imam's needs</text>
 
-  <text x="110" y="183" font-family="Georgia, serif" font-size="12.5" fill="#555">— <tspan font-weight="bold" fill="#333">Hijri occasion interleaving</tspan>: Eid, Ramadan, and special sermons auto-placed</text>
-  <text x="122" y="199" font-family="Georgia, serif" font-size="12.5" fill="#555">by date into the correct seasonal block</text>
+  <text x="110" y="183" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— <tspan font-weight="bold" fill="#333">Hijri occasion interleaving</tspan>: Eid, Ramadan, and special sermons auto-placed</text>
+  <text x="122" y="199" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">by date into the correct seasonal block</text>
 
-  <text x="110" y="221" font-family="Georgia, serif" font-size="12.5" fill="#555">— Cross-season spillover, dual-delivery Eid stacking, moon-sighting ±1 day tolerance</text>
+  <text x="110" y="221" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— Cross-season spillover, dual-delivery Eid stacking, moon-sighting ±1 day tolerance</text>
 
-  <text x="110" y="243" font-family="Georgia, serif" font-size="12.5" fill="#555">— Mosque invite system, multi-imam collaboration, Stripe subscription billing</text>
-  <text x="122" y="259" font-family="Georgia, serif" font-size="12.5" fill="#555">(Personal / Team / Institution tiers)</text>
+  <text x="110" y="243" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">— Mosque invite system, multi-imam collaboration, Stripe subscription billing</text>
+  <text x="122" y="259" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#555">(Personal / Team / Institution tiers)</text>
 
-  <text x="110" y="281" font-family="Georgia, serif" font-size="12.5" fill="#888" font-style="italic">★ designed the entire annual-plan data model from scratch — 64-slot elastic architecture</text>
+  <text x="110" y="281" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="12.5" fill="#888" font-style="italic">★ designed the entire annual-plan data model from scratch — 64-slot elastic architecture</text>
 
   <g transform="translate(100, 300)" filter="url(#shadow)">
-    <rect width="62" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="31" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Next.js</text>
+    <rect width="62" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="31" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Next.js</text>
   </g>
   <g transform="translate(172, 300)" filter="url(#shadow)">
-    <rect width="58" height="22" rx="3" fill="#C8E6C9" opacity="0.8"/><text x="29" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Prisma</text>
+    <rect width="58" height="22" rx="3" fill="#C8E6C9" opacity="0.8"/><text x="29" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Prisma</text>
   </g>
   <g transform="translate(240, 300)" filter="url(#shadow)">
-    <rect width="86" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="43" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">PostgreSQL</text>
+    <rect width="86" height="22" rx="3" fill="#B3E5FC" opacity="0.8"/><text x="43" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">PostgreSQL</text>
   </g>
   <g transform="translate(336, 300)" filter="url(#shadow)">
-    <rect width="56" height="22" rx="3" fill="#E1BEE7" opacity="0.8"/><text x="28" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Stripe</text>
+    <rect width="56" height="22" rx="3" fill="#E1BEE7" opacity="0.8"/><text x="28" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Stripe</text>
   </g>
   <g transform="translate(402, 300)" filter="url(#shadow)">
-    <rect width="62" height="22" rx="3" fill="#FFEB3B" opacity="0.8"/><text x="31" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">Resend</text>
+    <rect width="62" height="22" rx="3" fill="#FFEB3B" opacity="0.8"/><text x="31" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">Resend</text>
   </g>
   <g transform="translate(474, 300)" filter="url(#shadow)">
-    <rect width="86" height="22" rx="3" fill="#FFE0B2" opacity="0.8"/><text x="43" y="15" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#333" text-anchor="middle">TypeScript</text>
+    <rect width="86" height="22" rx="3" fill="#FFE0B2" opacity="0.8"/><text x="43" y="15" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#333" text-anchor="middle">TypeScript</text>
   </g>
 
   <path d="M100,352 Q300,357 500,350 Q700,357 860,352" fill="none" stroke="#e0d5b8" stroke-width="1.5" stroke-linecap="round"/>

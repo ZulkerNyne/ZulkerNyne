@@ -33,78 +33,78 @@
   <circle cx="40" cy="375" r="8" fill="none" stroke="#999" stroke-width="1.5"/>
 
   <!-- math x code x vision -->
-  <text x="450" y="45" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#999" text-anchor="middle" font-style="italic">✏ math × code × vision</text>
+  <text x="450" y="45" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="13" fill="#999" text-anchor="middle" font-style="italic">✏ math × code × vision</text>
 
   <!-- Main heading -->
-  <text x="450" y="120" font-family="Georgia, 'Times New Roman', serif" font-size="50" fill="#222" text-anchor="middle" font-weight="bold" filter="url(#rough)">Hey, I'm ZulkerNyne!</text>
+  <text x="450" y="120" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="50" fill="#222" text-anchor="middle" font-weight="bold" filter="url(#rough)">Hey, I'm ZulkerNyne!</text>
   <path d="M200,132 Q320,140 450,134 Q580,128 700,137" fill="none" stroke="#4FC3F7" stroke-width="8" opacity="0.3" stroke-linecap="round" filter="url(#pencil)"/>
   <path d="M220,137 Q350,144 450,138 Q570,132 680,142" fill="none" stroke="#4FC3F7" stroke-width="5" opacity="0.2" stroke-linecap="round" filter="url(#pencil)"/>
 
   <!-- Bio -->
-  <text x="450" y="175" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" fill="#444" text-anchor="middle">Math student at UCalgary building backend systems, SaaS products,</text>
-  <text x="450" y="195" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" fill="#444" text-anchor="middle">and full-stack apps that ship to real users. Currently leading software at</text>
-  <text x="450" y="215" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" fill="#444" text-anchor="middle">AUV Calgary — building ROS2 architecture and Gazebo simulation</text>
-  <text x="450" y="235" font-family="Georgia, 'Times New Roman', serif" font-size="14.5" fill="#444" text-anchor="middle">for an autonomous underwater vehicle targeting RoboSub 2027.</text>
+  <text x="450" y="175" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="14.5" fill="#444" text-anchor="middle">Math student at UCalgary building backend systems, SaaS products,</text>
+  <text x="450" y="195" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="14.5" fill="#444" text-anchor="middle">and full-stack apps that ship to real users. Currently leading software at</text>
+  <text x="450" y="215" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="14.5" fill="#444" text-anchor="middle">AUV Calgary — building ROS2 architecture and Gazebo simulation</text>
+  <text x="450" y="235" font-family="'Segoe Script', 'Comic Sans MS', 'Bradley Hand', cursive" font-size="14.5" fill="#444" text-anchor="middle">for an autonomous underwater vehicle targeting RoboSub 2027.</text>
 
   <!-- Sticky note role badges -->
   <g transform="translate(105, 260)" filter="url(#shadow)">
     <rect width="160" height="40" rx="3" fill="#FFEB3B" transform="rotate(-1)"/>
-    <text x="80" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#777" text-anchor="middle">Software Lead</text>
-    <text x="80" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">AUV Calgary</text>
+    <text x="80" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#777" text-anchor="middle">Software Lead</text>
+    <text x="80" y="31" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">AUV Calgary</text>
   </g>
   <g transform="translate(285, 258)" filter="url(#shadow)">
     <rect width="160" height="40" rx="3" fill="#B3E5FC" transform="rotate(0.5)"/>
-    <text x="80" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#777" text-anchor="middle">Backend · Full-Stack</text>
-    <text x="80" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">Developer</text>
+    <text x="80" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#777" text-anchor="middle">Backend · Full-Stack</text>
+    <text x="80" y="31" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">Developer</text>
   </g>
   <g transform="translate(465, 260)" filter="url(#shadow)">
     <rect width="160" height="40" rx="3" fill="#C8E6C9" transform="rotate(-0.5)"/>
-    <text x="80" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#777" text-anchor="middle">5 Live Products</text>
-    <text x="80" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">In Production</text>
+    <text x="80" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#777" text-anchor="middle">5 Live Products</text>
+    <text x="80" y="31" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">In Production</text>
   </g>
   <g transform="translate(645, 258)" filter="url(#shadow)">
     <rect width="160" height="40" rx="3" fill="#FFE0B2" transform="rotate(0.8)"/>
-    <text x="80" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#777" text-anchor="middle">Math Student</text>
-    <text x="80" y="31" font-family="'Segoe UI', Arial, sans-serif" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">UCalgary</text>
+    <text x="80" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="10" fill="#777" text-anchor="middle">Math Student</text>
+    <text x="80" y="31" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11.5" fill="#333" text-anchor="middle" font-weight="bold">UCalgary</text>
   </g>
 
   <!-- Stats row -->
   <g transform="translate(110, 320)">
     <rect width="145" height="55" rx="4" fill="#FFEB3B" opacity="0.65" filter="url(#shadow)"/>
-    <text x="72" y="24" font-family="Georgia, serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">5</text>
-    <text x="72" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#555" text-anchor="middle" letter-spacing="0.5">LIVE IN PRODUCTION</text>
+    <text x="72" y="24" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+    <text x="72" y="44" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="9.5" fill="#555" text-anchor="middle" letter-spacing="0.5">LIVE IN PRODUCTION</text>
   </g>
   <g transform="translate(275, 320)">
     <rect width="145" height="55" rx="4" fill="#FFEB3B" opacity="0.65" filter="url(#shadow)"/>
-    <text x="72" y="24" font-family="Georgia, serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">5</text>
-    <text x="72" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#555" text-anchor="middle" letter-spacing="0.5">LIVE WEBSITES</text>
+    <text x="72" y="24" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+    <text x="72" y="44" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="9.5" fill="#555" text-anchor="middle" letter-spacing="0.5">LIVE WEBSITES</text>
   </g>
   <g transform="translate(440, 320)">
     <rect width="145" height="55" rx="4" fill="#FFEB3B" opacity="0.65" filter="url(#shadow)"/>
-    <text x="72" y="24" font-family="Georgia, serif" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">5</text>
-    <text x="72" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#555" text-anchor="middle" letter-spacing="0.5">ENGINEERS LED</text>
+    <text x="72" y="24" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="24" fill="#333" text-anchor="middle" font-weight="bold">5</text>
+    <text x="72" y="44" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="9.5" fill="#555" text-anchor="middle" letter-spacing="0.5">ENGINEERS LED</text>
   </g>
   <g transform="translate(605, 320)">
     <rect width="165" height="55" rx="4" fill="#FF7043" opacity="0.85" filter="url(#shadow)"/>
-    <text x="82" y="24" font-family="Georgia, serif" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">SWE</text>
-    <text x="82" y="44" font-family="'Segoe UI', Arial, sans-serif" font-size="9.5" fill="#fff" text-anchor="middle" letter-spacing="0.5">TARGET ROLE</text>
+    <text x="82" y="24" font-family="'Comic Sans MS', 'Segoe Script', 'Bradley Hand', cursive" font-size="18" fill="#fff" text-anchor="middle" font-weight="bold">SWE</text>
+    <text x="82" y="44" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="9.5" fill="#fff" text-anchor="middle" letter-spacing="0.5">TARGET ROLE</text>
   </g>
 
   <!-- CTA row -->
   <g transform="translate(150, 392)">
     <rect width="140" height="24" rx="3" fill="#222" opacity="0.85"/>
-    <text x="70" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#fff" text-anchor="middle">See My Work →</text>
+    <text x="70" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11" fill="#fff" text-anchor="middle">See My Work →</text>
   </g>
   <g transform="translate(320, 392)">
     <rect width="110" height="24" rx="3" fill="none" stroke="#222" stroke-width="1.2"/>
-    <text x="55" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">GitHub ↗</text>
+    <text x="55" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11" fill="#333" text-anchor="middle">GitHub ↗</text>
   </g>
   <g transform="translate(460, 392)">
     <rect width="110" height="24" rx="3" fill="none" stroke="#222" stroke-width="1.2"/>
-    <text x="55" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">Resume ↗</text>
+    <text x="55" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11" fill="#333" text-anchor="middle">Resume ↗</text>
   </g>
   <g transform="translate(600, 392)">
     <rect width="110" height="24" rx="3" fill="none" stroke="#222" stroke-width="1.2"/>
-    <text x="55" y="16" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#333" text-anchor="middle">LinkedIn ↗</text>
+    <text x="55" y="16" font-family="'Comic Sans MS', 'Bradley Hand', cursive" font-size="11" fill="#333" text-anchor="middle">LinkedIn ↗</text>
   </g>
 </svg>
